@@ -34,7 +34,7 @@ public class EmailService {
             MimeMessage mimeMsg=javaMailSender.createMimeMessage();
             MimeMessageHelper helper =new MimeMessageHelper(mimeMsg, true);
 
-            helper.setFrom("awoyeyetimilehin@gmail.com");
+            helper.setFrom("addyouremail");
             helper.setTo(userName);
             helper.setSubject(OTP);
             helper.setText(link);

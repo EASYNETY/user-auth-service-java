@@ -38,17 +38,6 @@ public class UserServiceImpl implements UserService {
 
     }
 
-//public boolean userExistsAndNotEnabled(String userName){
-//    System.out.println(userName);
-//    boolean state=false;
-//        if (list.isPresent()){
-//        System.out.println(list.get().getUsername().concat( "username"));
-//        state =true;
-//    }
-//
-//    return state;
-//}
-
 
     public static String generateRandomString(int length) {
         SecureRandom random = new SecureRandom();
